@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a4fb390.chunk.css",
+    "main.js": "/static/js/main.b7e9420b.chunk.js",
+    "main.js.map": "/static/js/main.b7e9420b.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.3fdd0728.chunk.js": "/static/js/2.3fdd0728.chunk.js",
+    "static/js/2.3fdd0728.chunk.js.map": "/static/js/2.3fdd0728.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7ab14225fa7539366f23d69604c95577.js": "/precache-manifest.7ab14225fa7539366f23d69604c95577.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9a4fb390.chunk.css.map": "/static/css/main.9a4fb390.chunk.css.map",
+    "static/media/Hollywood.jpg": "/static/media/Hollywood.e42b7af8.jpg",
+    "static/media/John Russel Hands-min2.jpg": "/static/media/John Russel Hands-min2.444409a9.jpg",
+    "static/media/font.css": "/static/media/RobotoRegular.18d44f79.ttf",
+    "static/media/SITW_Hov_P.jpg": "/static/media/SITW_Hov_P.d1bf5f00.jpg",
+    "static/media/SITW_multiple2.jpg": "/static/media/SITW_multiple2.e2f73f8e.jpg",
+    "static/media/SITW_purp_green_float.jpeg": "/static/media/SITW_purp_green_float.d681f4ec.jpeg",
+    "static/media/Supreme.jpg": "/static/media/Supreme.f34d0715.jpg",
+    "static/media/gotbackdrop2.jpg": "/static/media/gotbackdrop2.538a2161.jpg",
+    "static/media/marcusdraw.png": "/static/media/marcusdraw.cc9d0df7.png"
+  }
+}
