@@ -119,7 +119,7 @@ class Portfolio2 extends Component {
       What Happened 2 Chocolate City (WH2CC) is a feature length documentary, exploring the rise and decline of one of our nation’s most prominent Black communities through the narrative of three individuals. <Spam>By visually examining the repercussions of urban development and revitalization in the district, WH2CC will uncover the roots of Washington, DC, a district home to GoGo music, Mumbo Sauce, and legions of black artists and academics, and how they’ve come to be endangered.</Spam>
       </Card.Text>
       <Card.Text>
-   Technologies used: Angular 
+   Technologies used: Angular & Bootstrap
     </Card.Text>
       </Ovltext>
     </Ovl1>
@@ -144,6 +144,9 @@ class Portfolio2 extends Component {
       <Card.Text>
         No fancy long dialouge here. Just TV talk!  Here are my top 10 favorite tv shows!
       </Card.Text>
+      <Card.Text>
+      Technologies used: React, React-Bootstrap, Styled Components, API 
+    </Card.Text>
       </Ovltext>
     </Ovl1>
     </Nav.Link>

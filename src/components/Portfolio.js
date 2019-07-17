@@ -113,7 +113,7 @@ class Portfolio extends Component {
     FriendsWithYou is the fine art collaborative of Samuel Borkson and Arturo Sandoval III, working collectively since 2002 with the sole purpose of spreading the positive message of Magic, Luck, and Friendship™. Known for immersive installations and interactive artworks, FriendsWithYou invites viewers of their work to reconnect with and reinterpret their lives through communal experiences. 
     </Card.Text>
     <Card.Text>
-   Technologies used: React, React-Bootstrap, Style Components 
+   Technologies used: React, React-Bootstrap, Styled Components 
     </Card.Text>
     </Ovltext>
     </Ovl1>
