@@ -101,8 +101,8 @@ class Portfolio extends Component {
             <Overall>
             <Row>
                 <Col xl={{offset:1, span:6}}>
-                <Dark>     <Card className=" text-white">
-<Card.Img  src={SITW2} alt="Card image" />
+                <Dark className="h-100">     <Card className="h-100 text-white">
+<Card.Img className="h-100" src={SITW2} alt="Card image" />
  <Card.ImgOverlay>
  <Nav.Item>
     <Nav.Link target="none"  href='https://zonekid.github.io/friendswithyou/#/'>

@@ -7,6 +7,10 @@ import './font.css';
 
 const Navstyle = styled.div `
 
+.navbar {
+  background-color: #ffffff;
+}
+
 .navbar-nav .cool1 {
     font-family: Helvetica;
 font-size: 18px;
@@ -29,7 +33,7 @@ text-transform:uppercase;
 const Navigation = () => {
     return ( 
         <Navstyle>
-<Navbar fixed="top" bg="none" expand="lg">
+<Navbar fixed="top" bg="" expand="lg">
 <NavLink to='/#home'><Navbar.Brand >Marcus Miller</Navbar.Brand></NavLink>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
