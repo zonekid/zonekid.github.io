@@ -5,6 +5,7 @@ import twitter from '../assets/twitter2.png';
 import phone from '../assets/phone.png';
 import mail from '../assets/mail3.png';
 import linkedin from '../assets/linkedin.png';
+import github from '../assets/github.png';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
@@ -66,6 +67,11 @@ class Contact extends Component {
             <Space> <Nav.Item>
     <Nav.Link target="none" href='mailto:marcusmiller220@gmail.com'> <Image  className='bar' src={mail} rounded /></Nav.Link></Nav.Item><br></br><br></br>
             </Space> 
+
+            <Space>  <Nav.Item>
+    <Nav.Link target="none" href='https://github.com/zonekid'> <Image className='bar'  src={github} rounded /></Nav.Link></Nav.Item><br></br><br></br>
+            </Space> 
+
     
    
             <Space>  <Nav.Item>
