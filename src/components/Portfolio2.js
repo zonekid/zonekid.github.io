@@ -17,6 +17,7 @@ text-align: center;
 font-size: 16px;
 color:#ffffff;
 @media (max-width: 575px) {
+    padding-bottom: 200px;
     .card-text{
         display:none;
     }
@@ -24,6 +25,7 @@ color:#ffffff;
 }
 @media (min-width: 576px) {
     .card-text{
+        
         display:none;
     }
 }

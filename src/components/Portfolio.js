@@ -16,10 +16,12 @@ text-align: center;
 font-size: 18px;
 color:#ffffff;
 @media (max-width: 575px) {
+    padding-bottom: 200px;
     .card-text{
+ 
         display:none;
     }
-
+   
 }
 @media (min-width: 576px) {
     .card-text{
