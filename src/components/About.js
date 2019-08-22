@@ -140,7 +140,7 @@ const About = () => {
     <p style={{fontSize:24}}>
     I'm a programmer who's inspired by artistry and innovation. Media, branding, and technology are the things that make me tick. My goal is to build digital content that contributes to our culture and society. Oh, and you might catch me spinning at a local venue from time to time. <First><Button className="btn1" shadow variant="outline-dark" size="sm" href="#">View My Resume</Button></First> 
     </p>
-    <Square><Button className="btn2"  shadow variant="outline-dark" size="lg" target="blank" href="https://drive.google.com/file/d/1W8caQPxppD-qZzetw-fohPWEyASLuXGp/view?usp=drivesdk">View My Resume</Button></Square>
+    <Square><Button className="btn2"  shadow variant="outline-dark" size="lg" target="blank" href="https://drive.google.com/file/d/1bGJg42F7kEpMSw6B-ay3wiJ0Dm7NMv6I/view?usp=sharing">View My Resume</Button></Square>
   </Media.Body>
 </Media>
 </Fine> 
@@ -149,7 +149,7 @@ const About = () => {
         <Only>
 <Title>ABOUT ME</Title>
    <Text> I'm a programmer who's inspired by artistry and innovation. Media, branding, and technology are the things that make me tick. My goal is to build digital content that contributes to our culture and society. Oh, and you might catch me spinning at a local venue from time to time.</Text>
-<Square><Button variant="dark" size="lg" target="blank"  href="https://drive.google.com/file/d/1W8caQPxppD-qZzetw-fohPWEyASLuXGp/view?usp=drivesdk">View My Resume</Button></Square>
+<Square><Button variant="dark" size="lg" target="blank"  href="https://drive.google.com/file/d/1bGJg42F7kEpMSw6B-ay3wiJ0Dm7NMv6I/view?usp=sharing">View My Resume</Button></Square>
 </Only>
 </Bored>
 </div>
