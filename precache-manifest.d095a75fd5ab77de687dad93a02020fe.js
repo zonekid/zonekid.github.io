@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1710a684aec0ffc058183986b8ccb4cd",
+    "revision": "ea0f08cd03e75a146ed46302562caebd",
     "url": "/index.html"
   },
   {
-    "revision": "d4d15c1e477e8f885e0b",
+    "revision": "cc9382890aa2b38f70dc",
     "url": "/static/css/main.33a8041a.chunk.css"
   },
   {
-    "revision": "99be16eacbc21de99445",
-    "url": "/static/js/2.5f17c95f.chunk.js"
+    "revision": "1fc1c70aa173bca7bb93",
+    "url": "/static/js/2.898586c1.chunk.js"
   },
   {
-    "revision": "d4d15c1e477e8f885e0b",
-    "url": "/static/js/main.3d3c43ec.chunk.js"
+    "revision": "cc9382890aa2b38f70dc",
+    "url": "/static/js/main.b45b3fad.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
-  },
-  {
-    "revision": "e42b7af835da5b5e2024fc282b4c4ec7",
-    "url": "/static/media/Hollywood.e42b7af8.jpg"
   },
   {
     "revision": "444409a9f45196cc81696c0548d273c5",
@@ -40,16 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SITW_Hov_P.d1bf5f00.jpg"
   },
   {
-    "revision": "e2f73f8e80f237cfd38b52bb1fe02711",
-    "url": "/static/media/SITW_multiple2.e2f73f8e.jpg"
-  },
-  {
     "revision": "f34d07152a2efaa897e3d6b6217fea1a",
     "url": "/static/media/Supreme.f34d0715.jpg"
-  },
-  {
-    "revision": "538a2161f9af76043ddfd7f5c6d61f7e",
-    "url": "/static/media/gotbackdrop2.538a2161.jpg"
   },
   {
     "revision": "cc9d0df7561bfaefbcc3e2721de47b2d",
