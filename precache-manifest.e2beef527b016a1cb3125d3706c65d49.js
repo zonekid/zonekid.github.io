@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cab867215175e7fc60da3e9ff83478a0",
+    "revision": "1710a684aec0ffc058183986b8ccb4cd",
     "url": "/index.html"
   },
   {
-    "revision": "ac88e7f29445b1550d4f",
-    "url": "/static/css/main.9a4fb390.chunk.css"
+    "revision": "d4d15c1e477e8f885e0b",
+    "url": "/static/css/main.33a8041a.chunk.css"
   },
   {
     "revision": "99be16eacbc21de99445",
     "url": "/static/js/2.5f17c95f.chunk.js"
   },
   {
-    "revision": "ac88e7f29445b1550d4f",
+    "revision": "d4d15c1e477e8f885e0b",
     "url": "/static/js/main.3d3c43ec.chunk.js"
   },
   {
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "444409a9f45196cc81696c0548d273c5",
     "url": "/static/media/John Russel Hands-min2.444409a9.jpg"
+  },
+  {
+    "revision": "b4618f1f7f4cee0ac09873fcc5a966f9",
+    "url": "/static/media/RobotoMono-Regular.b4618f1f.ttf"
   },
   {
     "revision": "18d44f79b3979ec168862093208c6d7d",
