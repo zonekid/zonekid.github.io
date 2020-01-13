@@ -217,7 +217,8 @@ top: 72%;
 
 @media (max-width: 767.98px) { 
     .picture {
-    height:120px;
+    height:auto;
+    padding-bottom:22px;
 }
 
 .title1 {
@@ -230,7 +231,7 @@ visibility:hidden;
     }
 
 .title2 {
-font-size: 10px;
+font-size: 14px;
 top: 50%;
     }
 
@@ -239,7 +240,7 @@ top: 50%;
     }
 
     .title3 {
-        font-size: 10px;
+        font-size: 14px;
         top: 50%;
     }
 
@@ -271,7 +272,7 @@ class Portfolio extends Component {
 
            <Row className="second-row">
                     
-                    <Col xs={6} sm={6} md={5} lg={5} xl={4}>  <div className="box">
+                    <Col xs={12} sm={12} md={5} lg={5} xl={4}>  <div className="box">
                           <a href="https://zonekid.github.io/friendswithyou/#/">
                               <Image fluid src={SITW2} alt="SITW" className="picture"/>
                           <div className="overlay">
@@ -281,7 +282,7 @@ FRIENDSWITHYOU IS THE FINE ART COLLABORATIVE OF SAMUEL BORKSON AND ARTURO SANDOV
                           </div>
                           </a>
                         </div></Col>
-                    <Col xs={6} sm={6} md={5} lg={5} xl={4}><div className="box">
+                    <Col xs={12} sm={12} md={5} lg={5} xl={4}><div className="box">
                     <a href="https://zonekid.github.io/Chocolate-City/#/main">
                           <Image fluid src={john} alt="Chocolate City" className="picture"/>
                           <div className="overlay">

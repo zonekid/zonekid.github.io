@@ -59,7 +59,7 @@ font-size:15px;
 }
 
 .section {
-    padding-top:80px;
+    padding-top:50px;
 }
 
  }
