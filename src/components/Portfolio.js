@@ -216,13 +216,17 @@ top: 72%;
 }
 
 @media (max-width: 767.98px) { 
+
+    .overlay{
+        opacity:1.0;
+    }
     .picture {
     height:auto;
     padding-bottom:22px;
 }
 
 .title1 {
-font-size: 14px;
+font-size: 15px;
 top: 50%;
     }
 
@@ -231,7 +235,7 @@ visibility:hidden;
     }
 
 .title2 {
-font-size: 14px;
+font-size: 15px;
 top: 50%;
     }
 
@@ -240,7 +244,7 @@ top: 50%;
     }
 
     .title3 {
-        font-size: 14px;
+        font-size: 15px;
         top: 50%;
     }
 
