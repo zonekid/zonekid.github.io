@@ -34,7 +34,7 @@ color:#ffffff;
 .picture {
   display: block;
   width: 100%;
-  height:360px;
+  height:375px;
 }
 
 .picture1 {
@@ -151,7 +151,13 @@ opacity:1.0;
    text-transform: uppercase;
 }
 
-@media (max-width: 1350.98px) {
+@media (max-width: 1670.98px) {
+    .picture {
+  height:320px;
+}
+}
+
+@media (max-width: 1500.98px) {
     .picture {
   height:280px;
 }
