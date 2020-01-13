@@ -34,7 +34,7 @@ color:#ffffff;
 .picture {
   display: block;
   width: 100%;
-  height:350px;
+  height:360px;
 }
 
 .picture1 {
@@ -149,6 +149,33 @@ opacity:1.0;
   transform: translate(-50%, -50%);
   text-align: center;
    text-transform: uppercase;
+}
+
+@media (max-width: 1350.98px) {
+    .picture {
+  height:280px;
+}
+
+.info1 {
+top: 66%;
+    }
+
+    .title2 {
+font-size: 16px;
+    }
+
+    .info2 {
+font-size: 11px;
+    }
+
+    .title3 {
+font-size: 16px;
+    }
+
+    .info3 {
+font-size: 11px;
+top: 69%;
+    }
 }
 
 @media (max-width: 1199.98px) { 
@@ -277,23 +304,23 @@ class Portfolio extends Component {
            <Row className="second-row">
                     
                     <Col xs={12} sm={12} md={5} lg={5} xl={4}>  <div className="box">
-                          <a href="https://zonekid.github.io/friendswithyou/#/">
+                          {/* <a href="https://zonekid.github.io/friendswithyou/#/"> */}
                               <Image fluid src={SITW2} alt="SITW" className="picture"/>
                           <div className="overlay">
                           <h3 className="title2">FriendsWithYou</h3>
                           <p className="info2">
 FRIENDSWITHYOU IS THE FINE ART COLLABORATIVE OF SAMUEL BORKSON AND ARTURO SANDOVAL III, WORKING COLLECTIVELY SINCE 2002 WITH THE SOLE PURPOSE OF SPREADING THE POSITIVE MESSAGE OF MAGIC, LUCK, AND FRIENDSHIP™.</p>
                           </div>
-                          </a>
+                          {/* </a> */}
                         </div></Col>
                     <Col xs={12} sm={12} md={5} lg={5} xl={4}><div className="box">
-                    <a href="https://zonekid.github.io/Chocolate-City/#/main">
+                    {/* <a href="https://zonekid.github.io/Chocolate-City/#/main"> */}
                           <Image fluid src={john} alt="Chocolate City" className="picture"/>
                           <div className="overlay">
                           <h3 className="title3">What Happened 2 Chocolate City</h3>
                           <p className="info3">WHAT HAPPENED 2 CHOCOLATE CITY (WH2CC) IS A FEATURE LENGTH DOCUMENTARY, EXPLORING THE RISE AND DECLINE OF ONE OF OUR NATION’S MOST PROMINENT BLACK COMMUNITIES THROUGH THE NARRATIVE OF THREE INDIVIDUALS.</p>
                           </div>
-                          </a>
+                          {/* </a> */}
                         </div></Col>
                         
                   </Row>
