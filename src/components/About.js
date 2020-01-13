@@ -9,149 +9,87 @@ import Image from 'react-bootstrap/Image';
 import Media from 'react-bootstrap/Media';
 import './font.css';
 
-const Title = styled.h1 `
-    font-family: Rob;
-    color: #303030;
-text-align:center;
-padding-top:80px;
-@media (max-width: 575px) {
-    padding-top:20px;
-}
-`
+const Me = styled.div `
+font-family: RobotoMono-Regular;
 
-const Text = styled.div `
-font-family: Rob;
-font-size: 28px;
-color: #303030;
-letter-spacing: 0;
-text-align:center;
-width:90%;
-margin:0 auto;
-`
+.section {
+margin: 0 auto;
+padding-top: 150px;
+}
 
-const Square = styled.div `
-text-align:center;
-padding-top:40px;
-padding-bottom:30px;
-@media (min-width: 768px) {
-display:none;
+.pic {
+    width:332px;
+    height:214px;  
 }
-@media (min-width: 1800px) {
-display:block;
- }
 
-`
-const Bored = styled.div `
-padding-top:50px;
+.title {
+font-size:20px;
+}
 
+.info {
+    font-size:17px;
 
-`
-const Ovltext = styled.div `
-text-transform:uppercase;
-text-align: center;
-font-size: 18px;
-color:#ffffff;
-@media (max-width: 575px) {
-    .card-text{
-        display:none;
-    }
 }
-    @media (min-width: 576px) {
-    .card-text{
-        display:none;
-    }
+
+@media (max-width: 991.98px) { 
+    .pic {
+    width:242px;
+    height:156px;  
 }
-@media (min-width: 768px) {
-    padding-top:90px;
-padding-bottom: 100px;
+
+.title {
+font-size:15px;
 }
-@media (min-width: 991px) {
-    padding-top:140px;
-padding-bottom: 100px;
+
+.info {
+    font-size:12px;
+
 }
-@media (min-width: 1300px) {
+
+.section {
     padding-top:100px;
-padding-bottom: 200px;
+}
+
+}
+
+@media (max-width: 767.98px) { 
+    .pic {
+    width:142px;
+    height:91px;  
+}
+
+.section {
+    padding-top:80px;
+}
+
  }
 
-@media (min-width: 1800px) {
-  padding-top:100px;
-padding-bottom: 80px;
- }
 `
 
-
-const Ovl1 = styled.div `
-opacity:0;
-transition:0.75s;
-&:hover {
-  opacity: 1;
-  background: rgb(0, 0, 00, 0.75);
-}
-`
-
-const Only = styled.div `
-@media (max-width: 575px) {
-    display:block;
-}
-@media (min-width: 575px) {
-display:none;
-}
-`
-
-const Fine = styled.div `
-font-family:Roboto-Regular;
-@media (max-width: 575px) {
-    display:none
-}
-@media (min-width: 576px) {
-    display:block;
-}
-`
-const First = styled.div `
-
-@media (min-width: 768px) {
-    display:inline;
-}
-@media (min-width: 1800px) {
-display:none;
- }
-`
 
 
 const About = () => {
     return ( 
 <div>
-    <Bored>
-        <Row>
-            
-            
-            <Col xl={{offset:2, span:8}}>
-          <Fine><Media>
+    <Me>
+    <Row>
+        <Col xs={12} sm={12} md={10} lg={10} xl={8} className="section">
+        <Media>
   <img
-    width={400}
-    height={258}
-    className="align-self-start mr-3"
+    className="mr-3 pic"
     src={myself}
     alt="Generic placeholder"
   />
   <Media.Body>
-    <h5 style={{fontSize:34}}>ABOUT ME</h5>
-    <p style={{fontSize:24}}>
-    I'm a programmer who's inspired by artistry and innovation. Media, branding, and technology are the things that make me tick. My goal is to build digital content that contributes to our culture and society. Oh, and you might catch me spinning at a local venue from time to time. <First><Button className="btn1" shadow variant="outline-dark" size="sm" href="https://drive.google.com/file/d/1bGJg42F7kEpMSw6B-ay3wiJ0Dm7NMv6I/view?usp=sharing">View My Resume</Button></First> 
+    <h5 className="title">ABOUT MYSELF</h5>
+    <p className="info">
+    I'm a programmer who's inspired by artistry and innovation. Media, branding, and technology are the things that make me tick. My goal is to build digital content that contributes to our culture and society. Oh, and you might catch me spinning at a local venue from time to time. <Button href="https://drive.google.com/file/d/178RcnAJ3zCVorhG1jrTXVrjfmuVz1Qao/view?usp=drivesdk" target="_blank" size="sm" variant="outline-dark">View My Resume</Button>
     </p>
-    <Square><Button className="btn2"  shadow variant="outline-dark" size="lg" target="blank" href="https://drive.google.com/file/d/1bGJg42F7kEpMSw6B-ay3wiJ0Dm7NMv6I/view?usp=sharing">View My Resume</Button></Square>
   </Media.Body>
 </Media>
-</Fine> 
-            </Col>
-        </Row>
-        <Only>
-<Title>ABOUT ME</Title>
-   <Text> I'm a programmer who's inspired by artistry and innovation. Media, branding, and technology are the things that make me tick. My goal is to build digital content that contributes to our culture and society. Oh, and you might catch me spinning at a local venue from time to time.</Text>
-<Square><Button variant="dark" size="lg" target="blank"  href="https://drive.google.com/file/d/1bGJg42F7kEpMSw6B-ay3wiJ0Dm7NMv6I/view?usp=sharing">View My Resume</Button></Square>
-</Only>
-</Bored>
+        </Col>
+    </Row>
+    </Me>
 </div>
      );
 }

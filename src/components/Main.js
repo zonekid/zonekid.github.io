@@ -11,34 +11,7 @@ import './font.css';
 
 
 const Whole = styled.div`
-@media (max-width: 575px) {
-    padding-top:120px;
-    padding-bottom: 0px;
- }
- @media (min-width: 576px) {
-    padding-top:120px;
-    padding-bottom: 0px;
- }
 
-@media (min-width: 768px) {
-    padding-top:200px;
-padding-bottom: 0px;
- }
-
-@media (min-width: 991px) {
-    padding-top:230px;
-padding-bottom: 0px;
- }
-
-@media (min-width: 1300px) {
-    padding-top:170px;
-padding-bottom: 150px;
- }
-
-@media (min-width: 1800px) {
-    padding-top:250px;
-    padding-bottom:150px;
- }
 `
 
 

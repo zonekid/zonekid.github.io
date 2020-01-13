@@ -12,7 +12,7 @@ const Navstyle = styled.div `
 }
 
 .navbar-nav .cool1 {
-    font-family: Helvetica;
+    font-family: RobotoMono-Regular;
 font-size: 18px;
 color: #303030;
 letter-spacing: 0;
@@ -22,7 +22,7 @@ padding-right:15px;
 }
 
 .navbar .navbar-brand {
-    font-family: Helvetica;
+    font-family: RobotoMono-Regular;
 font-size: 20px;
 color: #303030;
 letter-spacing: 0;

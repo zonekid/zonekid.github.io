@@ -3,134 +3,296 @@ import styled from 'styled-components';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card'
-import SITW from '../assets/SITW_purp_green_float.jpeg';
 import SITW2 from '../assets/SITW_Hov_P.jpg';
-import Portfolio2 from '../components/Portfolio2';
-import Nav from 'react-bootstrap/Nav';
+import Image from 'react-bootstrap/Image'
+import steve from  '../assets/yoga_steve.jpg';
+import john from '../assets/John Russel Hands-min2.jpg';
 import './font.css';
 
-const Ovltext = styled.div `
-font-family: Rob;
+const Ports = styled.div `
+font-family: RobotoMono-Regular;
 text-transform:uppercase;
 text-align: center;
-font-size: 18px;
 color:#ffffff;
-@media (max-width: 575px) {
-    padding-bottom: 200px;
-    .card-text{
- 
-        display:none;
-    }
-   
-}
-@media (min-width: 576px) {
-    .card-text{
-        display:none;
-    }
-}
-@media (min-width: 768px) {
-    padding-top:90px;
-padding-bottom: 100px;
-.card-text{
-        display:block;
-    }
-}
-@media (min-width: 991px) {
-    padding-top:140px;
-padding-bottom: 100px;
-}
-@media (min-width: 1200px) {
+
+.first-row {
     padding-top:50px;
-padding-bottom: 200px;
-font-size: 14px;
- }
-
- @media (min-width: 1500px) {
-    padding-top:110px;
-padding-bottom: 200px;
-font-size: 14px;
- }
-
-@media (min-width: 1800px) {
-  padding-top:170px;
-padding-bottom: 270px;
-font-size: 18px;
- }
-
- @media (min-width: 2300px) {
-  padding-top:270px;
-padding-bottom: 370px;
-font-size: 18px;
- }
-`
-
-
-const Ovl1 = styled.div `
-opacity:0;
-transition:0.75s;
-&:hover {
-  opacity: 1;
-
-}
-`
-
-const Dark = styled.div `
-padding-bottom:20px;
-    &:hover  .card .card-img  {
- filter: brightness(50%);
+   justify-content:center;
+    
 }
 
+.second-row{
+    padding-top:25px;
+   justify-content:center;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+}
+
+.picture {
+  display: block;
+  width: 100%;
+  height:350px;
+}
+
+.picture1 {
+    display: block;
+width: 100%;
+  height:auto;  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+
+}
+
+.box:hover .overlay {
+background-color:rgba(0, 0, 0, 0.80);
+opacity:1.0;
+}
+
+.title2 {
+    color:#ffffff;
+    font-size: 19px;
+  padding-bottom:50px;
+
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+   text-transform: uppercase;
+}
+
+.info2 {
+    color:#ffffff;
+    font-size: 14px;
+  padding-bottom:50px;
+
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+   text-transform: uppercase;
+}
+
+.title3 {
+    color:#ffffff;
+    font-size: 19px;
+  padding-bottom:50px;
+
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+   text-transform: uppercase;
+}
+
+.info3 {
+    color:#ffffff;
+    font-size: 14px;
+  padding-bottom:50px;
+
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+   text-transform: uppercase;
+}
+
+.title1 {
+    color:#ffffff;
+    font-size: 23px;
+  padding-bottom:50px;
+
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+   text-transform: uppercase;
+}
+
+.info1 {
+    color:#ffffff;
+    font-size: 18px;
+  padding-bottom:50px;
+
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+   text-transform: uppercase;
+}
+
+@media (max-width: 1199.98px) { 
+
+    .picture {
+        height:250px;
+    }
+
+    .info1 {
+top: 66%;
+    }
+
+    .title2 {
+font-size: 16px;
+    }
+
+    .info2 {
+font-size: 11px;
+    }
+
+    .title3 {
+font-size: 16px;
+    }
+
+    .info3 {
+font-size: 11px;
+top: 69%;
+    }
+}
+
+@media (max-width: 991.98px) { 
+
+.picture {
+    height:200px;
+}
+
+.title1 {
+font-size: 18px;
+    }
+
+    .info1 {
+font-size: 14px;
+top: 63%;
+    }
+
+.title2 {
+font-size: 14px;
+top: 25%;
+    }
+
+    .info2 {
+font-size: 10px;
+top: 69%;
+    }
+
+    .title3 {
+font-size: 13px;
+top: 25%;
+    }
+
+    .info3 {
+font-size: 10px;
+top: 72%;
+    }
+}
+
+@media (max-width: 767.98px) { 
+    .picture {
+    height:120px;
+}
+
+.title1 {
+font-size: 14px;
+top: 50%;
+    }
+
+    .info1 {
+visibility:hidden;
+    }
+
+.title2 {
+font-size: 10px;
+top: 50%;
+    }
+
+    .info2 {
+        visibility:hidden;
+    }
+
+    .title3 {
+        font-size: 10px;
+        top: 50%;
+    }
+
+    .info3 {
+        visibility:hidden;
+    }
+}
+
 `
-
-const Overall = styled.div `
-
-@media (min-width: 1300px) {
-    padding-top:200px;
-
- }
-
-@media (min-width: 1800px) {
-  padding-top:200px;
-padding-bottom:100px;
- }
-`
-
 
 class Portfolio extends Component {
     state = {  }
     render() { 
         return ( <div>
-            <Overall>
-            <Row>
-                <Col xl={{offset:1, span:6}}>
-                <Dark className="h-100">     <Card className="h-100 text-white">
-<Card.Img className="h-100" src={SITW2} alt="Card image" />
- <Card.ImgOverlay>
- <Nav.Item>
-    <Nav.Link target="none"  href='https://zonekid.github.io/friendswithyou/#/'>
- <Ovl1>
-        <Ovltext>
-    <Card.Title style={{fontSize: 30}}>FRIENDS WITH YOU</Card.Title>
-    <Card.Text>
-    FriendsWithYou is the fine art collaborative of Samuel Borkson and Arturo Sandoval III, working collectively since 2002 with the sole purpose of spreading the positive message of Magic, Luck, and Friendship™. Known for immersive installations and interactive artworks, FriendsWithYou invites viewers of their work to reconnect with and reinterpret their lives through communal experiences. 
-    </Card.Text>
-    <Card.Text>
-   Technologies used: React, React-Bootstrap, Styled Components 
-    </Card.Text>
-    </Ovltext>
-    </Ovl1>
-    </Nav.Link>
-    </Nav.Item>
-  </Card.ImgOverlay>
+           <Ports>
 
-</Card>
-</Dark>
-                </Col>
-                <Col xl={4}>
-                    <Portfolio2/>
-                </Col>
-            </Row>
-            </Overall>
+           <Row className="first-row">
+                    
+                    <Col xs={12} sm={12} md={10} lg={10} xl={8}>  <div className="box">
+                          <a href="https://zonekid.github.io/agency-page/#/">
+                              <Image fluid src={steve} alt="RTH" className="picture1"/>
+                          <div className="overlay">
+                          <h3 className="title1">Release The Hounds Agency</h3>
+                          <p className="info1">RTH is a brand experience shop based out of Richmond, VA that focuses on developing and communicating brand stories that radiate.  Check out my version of their website.</p>
+                          </div>
+                          </a>
+                        </div></Col>
+                  </Row>
+
+           <Row className="second-row">
+                    
+                    <Col xs={6} sm={6} md={5} lg={5} xl={4}>  <div className="box">
+                          <a href="https://zonekid.github.io/friendswithyou/#/">
+                              <Image fluid src={SITW2} alt="SITW" className="picture"/>
+                          <div className="overlay">
+                          <h3 className="title2">FriendsWithYou</h3>
+                          <p className="info2">
+FRIENDSWITHYOU IS THE FINE ART COLLABORATIVE OF SAMUEL BORKSON AND ARTURO SANDOVAL III, WORKING COLLECTIVELY SINCE 2002 WITH THE SOLE PURPOSE OF SPREADING THE POSITIVE MESSAGE OF MAGIC, LUCK, AND FRIENDSHIP™.</p>
+                          </div>
+                          </a>
+                        </div></Col>
+                    <Col xs={6} sm={6} md={5} lg={5} xl={4}><div className="box">
+                    <a href="https://zonekid.github.io/Chocolate-City/#/main">
+                          <Image fluid src={john} alt="Chocolate City" className="picture"/>
+                          <div className="overlay">
+                          <h3 className="title3">What Happened 2 Chocolate City</h3>
+                          <p className="info3">WHAT HAPPENED 2 CHOCOLATE CITY (WH2CC) IS A FEATURE LENGTH DOCUMENTARY, EXPLORING THE RISE AND DECLINE OF ONE OF OUR NATION’S MOST PROMINENT BLACK COMMUNITIES THROUGH THE NARRATIVE OF THREE INDIVIDUALS.</p>
+                          </div>
+                          </a>
+                        </div></Col>
+                        
+                  </Row>
+           </Ports>
         </div> );
     }
 }

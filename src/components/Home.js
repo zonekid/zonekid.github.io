@@ -7,69 +7,106 @@ import Image from 'react-bootstrap/Image';
 import me from '../assets/marcusdraw.png';
 import './font.css';
 
-const Intro = styled.div `
-font-family: Rob;
-font-size: 64px;
-color: #303030;
-letter-spacing: 0;
-padding-top:30px;
-@media (max-width: 575px) {
-    padding-top:70px;
-  
- }
- @media (min-width: 576px) {
-    padding-top:70px;
-  
- }
- @media (min-width: 768px) and (max-width: 990px) {
-    padding-top:70px;
-  
- }
-
-
-`
-
-const Small = styled.span `
-font-family: Rob;
-font-size: 24px;
-color: #303030;
-letter-spacing: 0;
-
-`
-
 const Whole = styled.div `
-padding-top:50px;
-padding-bottom:50px;
+padding-top: 150px;
+padding-bottom: 100px;
+
+.time {
+   
+}
+
+.intro {
+    font-family: RobotoMono-Regular;
+    font-size: 40px;
+    color: #303030;
+    letter-spacing: 0;
+}
+
+.small {
+    font-family: RobotoMono-Regular;
+    font-size: 24px;
+
+}
+
+
+
+
+@media (max-width: 1199.98px) { 
+    .intro {
+    font-size: 32px;
+
+}
+
+
+ }
+
+ @media (max-width: 991.98px) { 
+
+    padding-bottom: 80px;
+    .intro {
+    font-size: 26px;
+
+}
+
+  }
+
+  @media (max-width: 767.98px) { 
+    padding-top: 100px;
+    padding-bottom: 20px;
+    .intro {
+    font-size: 18px;
+
+}
+   }
+
+ @media (max-width: 575.98px) { 
+
+    padding-top: 100px;
+    padding-bottom: 10px;
+    .intro {
+    font-size: 18px;
+
+}
+
+
+
+ }
 
 `
 
-const Move = styled.div `
-
-padding-top:250px;
-
-`
 
 
 class Home extends Component {
     state = {  }
     render() { 
-        return ( <div>
+        return ( 
             <Whole>
-            <Row>
-                <Col sm={12} md={7} lg={{offset:1, span:6}} xl={6}>
-                <Intro>
+            <Row className="time">
+               
+                <Col xs={{span:8}} sm={{span:8}} md={{offset:1, span:7}} lg={{offset:1, span:7}} xl={{offset:2, span:6}}>
+                   
+                <div className="intro">
             <Typist>
                 Hello, My name is Marcus Miller and I am a Web Developer based out of Richmond, VA<br></br>
-                <Small>Let's Chat&#8594;</Small>    
+                <p className="small">Let's Chat&#8594;</p>    
             </Typist>
-            </Intro>
-                </Col>
-                <Col sm={12} md={{offset:2, span:3}} lg={{offset:2, span:3}} xl={{offset:2, span:2}}>
-             <Move><Image fluid  src={me} rounded /></Move>  
-                </Col>
+            </div>
+        
+                </Col>  
+                <Col xs={4} sm={4} md={3} lg={3} xl={2}>
+            <Image fluid  src={me} rounded />
+            
+                </Col>   
             </Row>
+
+            {/* <Row className="time">
+            <Col xs={{offset:3, span:6}} md={4} lg={{offset:5, span: 3}}  xl={{offset:5, span: 3}}>
+             <div ><Image fluid  src={me} rounded /></div>  
+            
+                </Col>
+            </Row> */}
             </Whole>
-        </div> );
+        );
     }
 }
  
