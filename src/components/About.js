@@ -82,7 +82,7 @@ const About = () => {
   <Media.Body>
     <h5 className="title">ABOUT MYSELF</h5>
     <p className="info">
-    I'm a programmer who's inspired by artistry and innovation. Media, branding, and technology are the things that make me tick. My goal is to build digital content that contributes to our culture and society. Oh, and you might catch me spinning at a local venue from time to time. <Button href="https://drive.google.com/file/d/1Yi6llIEmegLHqZKMEg0b_AHe9Le_LmGY/view?usp=drivesdk" target="_blank" size="sm" variant="outline-dark">View My Resume</Button>
+    I'm a programmer who's inspired by artistry and innovation. Media, branding, and technology are the things that make me tick. My goal is to build digital content that contributes to our culture and society. Oh, and you might catch me spinning at a local venue from time to time. <Button href="https://drive.google.com/file/d/1A5B2Dml2l1b_goBM_jQfABAuuRkQQWcs/view?usp=sharing" target="_blank" size="sm" variant="outline-dark">View My Resume</Button>
     </p>
   </Media.Body>
 </Media>
